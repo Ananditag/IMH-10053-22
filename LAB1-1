@@ -1,0 +1,10 @@
+public class Main {
+    public static void main(String[] args) {
+        //On removing the keywords public and static,
+        //output is same as before.
+        //But making the return type of main() as int,
+        //it gives error.
+        System.out.println("Hello, my name is Anandita Gupta");
+    }
+    
+}
