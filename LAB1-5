@@ -7,5 +7,6 @@ public class Main{
 
         System.out.println("The float value of the double value is : " + (float)(d));
         System.out.println("The long value of the given double value is : " + (long)(d));
+        System.out.println("The integer value of the long value is : " + (int)(l));
     }
 }
