@@ -1,0 +1,10 @@
+public class Main{
+    public static void main(String[] args) {
+        System.out.println("Enter any sentence :");
+        Scanner input = new Scanner(System.in);
+        // next() will accept only first word as input
+        System.out.println(input.next());
+        // nextLine() will accept the whole string of that line as input
+        System.out.println(input.nextLine());
+    }
+}
