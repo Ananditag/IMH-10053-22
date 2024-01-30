@@ -1,0 +1,21 @@
+public class Main {
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
+        System.out.print("Please input an integer:");
+        System.out.println("Your integer value is " + input.nextInt());
+
+        System.out.print("Please input a character:");
+        System.out.println("Your character is " + input.next());
+
+        System.out.print("Please input a floating number:");
+        System.out.println("Your float value is " + input.nextFloat());
+
+        System.out.print("Please input a long decimal number:");
+        System.out.println("Your double value is " + input.nextDouble());
+
+        System.out.print("Please input a byte number:");
+        System.out.println("Your byte value is " + input.nextByte());
+    
+        // On exceeding the limit of literals, program gives an error.
+    }
+}
